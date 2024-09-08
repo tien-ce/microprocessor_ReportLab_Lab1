@@ -152,9 +152,11 @@ int main(void)
 
 
 	  /*	*/
-
+	  led_on(GPIOA, GREEN_1_Pin);
+	  led_on(GPIOA, GREEN_2_Pin);
+	  HAL_Delay(500);
 	  ex7_run();
-
+	  HAL_Delay(500);
 
 
 	 /*
