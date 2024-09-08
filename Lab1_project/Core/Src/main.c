@@ -106,7 +106,7 @@ int main(void)
   HAL_GPIO_WritePin(GPIOA, LED_YELLOW_Pin, SET);
 
   /* 	EX2
-   * traffic(GPIOA, RED_1_Pin, YELLOW_1_Pin, GREEN_1_Pin, GREEN); */
+    traffic(GPIOA, RED_1_Pin, YELLOW_1_Pin, GREEN_1_Pin, GREEN);	*/
 
   /*	EX3
     traffic(GPIOA, RED_1_Pin, YELLOW_1_Pin, GREEN_1_Pin, GREEN);
@@ -136,7 +136,7 @@ int main(void)
   while (1){
 
 	  ex1_run();
-	  /* ex2_run()*/
+	  /* ex2_run();*/
 	  /* ex3_run();*/
 	  /*
 	  	  if(num>=10){
@@ -182,7 +182,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  	HAL_Delay(1000);
+	  	HAL_Delay(500);
 
   }
   /* USER CODE END 3 */

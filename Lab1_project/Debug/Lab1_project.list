@@ -39,11 +39,11 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  17 .debug_line   00004d6d  00000000  00000000  0003a1eb  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    00079dff  00000000  00000000  0003ef58  2**0
+ 18 .debug_str    00079df6  00000000  00000000  0003ef58  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000053  00000000  00000000  000b8d57  2**0
+ 19 .comment      00000053  00000000  00000000  000b8d4e  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00000d78  00000000  00000000  000b8dac  2**2
+ 20 .debug_frame  00000d78  00000000  00000000  000b8da4  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -155,8 +155,8 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  	HAL_Delay(1000);
- 8000198:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
+	  	HAL_Delay(500);
+ 8000198:	f44f 70fa 	mov.w	r0, #500	; 0x1f4
  800019c:	f000 f984 	bl	80004a8 <HAL_Delay>
 	  ex1_run();
  80001a0:	e7f8      	b.n	8000194 <main+0x28>
