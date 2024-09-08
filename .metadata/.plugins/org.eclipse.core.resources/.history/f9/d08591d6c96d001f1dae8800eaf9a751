@@ -138,7 +138,7 @@ int main(void)
 
 	  ex1_run();
 	  /* ex2_run();	*/
-	  /* */ex3_run();
+	  /* ex3_run();*/
 	  /*
 	  	  if(num>=10){
 	  		  num = 0;
