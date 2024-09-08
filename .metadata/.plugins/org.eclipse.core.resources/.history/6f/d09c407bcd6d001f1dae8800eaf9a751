@@ -132,14 +132,13 @@ int main(void)
   */
 
 
-  /* EX9
+  /* EX9 */
   int num = 0;
   setAllClock(GPIOA, GREEN_1_Pin, YELLOW_1_Pin, RED_1_Pin, GREEN_2_Pin, YELLOW_2_Pin, RED_2_Pin, GREEN_3_Pin, YELLOW_3_Pin, RED_3_Pin, GREEN_4_Pin, YELLOW_4_Pin, RED_4_Pin);
-   */
 
-  /*EX10	 */
+  /*EX10
   clearAllClock(GPIOA, GREEN_1_Pin, YELLOW_1_Pin, RED_1_Pin, GREEN_2_Pin, YELLOW_2_Pin, RED_2_Pin, GREEN_3_Pin, YELLOW_3_Pin, RED_3_Pin, GREEN_4_Pin, YELLOW_4_Pin, RED_4_Pin);
-
+   */
   while (1){
 
 	  ex1_run();
@@ -172,19 +171,18 @@ int main(void)
 	 num++;
 
 	 */
-	  /*
+	  /*	*/
 	  if(num>=12){
 	  	num = 0;
 	  	}
 	  	ex9_run(num);
 	  	num++;
-	 */
 
-	  /*  */ex10_run();
+	  /* ex10_run(); */
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  	HAL_Delay(50);
+	  	HAL_Delay(400);
 
   }
   /* USER CODE END 3 */
