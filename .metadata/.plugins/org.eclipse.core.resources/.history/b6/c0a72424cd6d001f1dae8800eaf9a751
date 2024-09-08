@@ -129,7 +129,7 @@ int main(void)
 
   int num = 0;
   clearAllClock(GPIOA, GREEN_1_Pin, YELLOW_1_Pin, RED_1_Pin, GREEN_2_Pin, YELLOW_2_Pin, RED_2_Pin, GREEN_3_Pin, YELLOW_3_Pin, RED_3_Pin, GREEN_4_Pin, YELLOW_4_Pin, RED_4_Pin);
-  */
+  /*
 
 
   /* EX9 */
@@ -175,6 +175,9 @@ int main(void)
 	  if(num>=12){
 	  	num = 0;
 	  	}
+	  	setAllClock(GPIOA, GREEN_1_Pin, YELLOW_1_Pin, RED_1_Pin, GREEN_2_Pin, YELLOW_2_Pin, RED_2_Pin, GREEN_3_Pin, YELLOW_3_Pin, RED_3_Pin, GREEN_4_Pin, YELLOW_4_Pin, RED_4_Pin);
+
+	  	HAL_Delay(200);
 	  	ex9_run(num);
 	  	num++;
 
