@@ -1,2 +1,2 @@
-ex9.c:9:6:ex9_init	4	static
-ex9.c:10:6:ex9_run	56	static
+ex9.c:9:6:ex9_init	48	static
+ex9.c:14:6:ex9_run	48	static
