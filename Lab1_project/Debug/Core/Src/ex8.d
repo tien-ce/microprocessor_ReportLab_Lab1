@@ -1,4 +1,4 @@
-Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
+Core/Src/ex8.o: ../Core/Src/ex8.c ../Core/Inc/ex8.h ../Core/Inc/main.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
  ../Core/Inc/stm32f1xx_hal_conf.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
@@ -21,8 +21,9 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
- ../Core/Inc/ex1.h ../Core/Inc/main.h ../Core/Inc/ex8.h \
- E:/Microprocesser-microcontroller/SOW/Ins/LED.h
+ E:/Microprocesser-microcontroller/SOW/Ins/LED.h ../Core/Inc/main.h
+
+../Core/Inc/ex8.h:
 
 ../Core/Inc/main.h:
 
@@ -70,10 +71,6 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h:
 
-../Core/Inc/ex1.h:
+E:/Microprocesser-microcontroller/SOW/Ins/LED.h:
 
 ../Core/Inc/main.h:
-
-../Core/Inc/ex8.h:
-
-E:/Microprocesser-microcontroller/SOW/Ins/LED.h:

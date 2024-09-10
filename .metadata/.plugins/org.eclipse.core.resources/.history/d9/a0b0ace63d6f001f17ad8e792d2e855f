@@ -107,8 +107,20 @@ int main(void)
   ex1_init();
   ex8_init();
   while (1){
+
 	  ex1_run();
+
 	  ex8_run();
+
+	 /*
+	 if(num>=12){
+		 num = 0;
+	 }
+
+	 ex8_run(num);
+	 num++;
+
+	 */
 	  /*
 	  if(num>=12){
 	  	num = 0;
@@ -121,7 +133,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	 HAL_Delay(500);
+	 HAL_Delay(1000);
 
   }
   /* USER CODE END 3 */

@@ -1,2 +1,2 @@
-ex8.c:8:6:ex8_init	4	static
-ex8.c:9:6:ex8_run	56	static
+ex8.c:8:6:ex8_init	48	static
+ex8.c:14:6:ex8_run	48	static
