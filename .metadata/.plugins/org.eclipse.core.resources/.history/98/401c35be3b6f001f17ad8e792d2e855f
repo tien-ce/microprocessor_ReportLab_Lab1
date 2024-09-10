@@ -25,7 +25,7 @@
 /* USER CODE BEGIN Includes */
 
 #include "ex1.h"
-#include "ex3.h"
+#include "ex2.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -95,6 +95,12 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
 
+  /*	EX3
+    traffic(GPIOA, RED_1_Pin, YELLOW_1_Pin, GREEN_1_Pin, GREEN);
+    traffic(GPIOA, RED_3_Pin, YELLOW_3_Pin, GREEN_3_Pin, GREEN);
+    traffic(GPIOA, RED_2_Pin, YELLOW_2_Pin, GREEN_2_Pin, RED);
+    traffic(GPIOA, RED_4_Pin, YELLOW_4_Pin, GREEN_4_Pin, RED);
+  */
   /*	EX4
    int num = 0;
   */
@@ -121,11 +127,12 @@ int main(void)
   clearAllClock(GPIOA, GREEN_1_Pin, YELLOW_1_Pin, RED_1_Pin, GREEN_2_Pin, YELLOW_2_Pin, RED_2_Pin, GREEN_3_Pin, YELLOW_3_Pin, RED_3_Pin, GREEN_4_Pin, YELLOW_4_Pin, RED_4_Pin);
    */
   ex1_init();
-  ex3_init();
+  ex2_init();
   while (1){
 
 	  ex1_run();
-	  ex3_run();
+	  ex2_run();
+	  /* ex3_run();	*/
 	  /*
 	  	  if(num>=10){
 	  		  num = 0;

@@ -1,4 +1,4 @@
-Core/Src/ex2.o: ../Core/Src/ex2.c ../Core/Inc/ex2.h ../Core/Inc/main.h \
+Core/Src/ex3.o: ../Core/Src/ex3.c ../Core/Inc/ex3.h ../Core/Inc/main.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
  ../Core/Inc/stm32f1xx_hal_conf.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
@@ -24,7 +24,7 @@ Core/Src/ex2.o: ../Core/Src/ex2.c ../Core/Inc/ex2.h ../Core/Inc/main.h \
  E:/Microprocesser-microcontroller/SOW/Ins/Traffic_light.h \
  ../Core/Inc/main.h
 
-../Core/Inc/ex2.h:
+../Core/Inc/ex3.h:
 
 ../Core/Inc/main.h:
 
