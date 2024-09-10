@@ -1,2 +1,2 @@
-ex5.c:10:6:ex5_init	4	static
-ex5.c:16:6:ex5_run	32	static
+ex5.c:10:6:ex5_init	16	static
+ex5.c:21:6:ex5_run	32	static
