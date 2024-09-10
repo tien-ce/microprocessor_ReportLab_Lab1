@@ -263,3 +263,18 @@ java.lang.IllegalStateException: Call stack for thread main
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-09-08 16:56:37.323
 !MESSAGE Indexed 'Lab1_project' (31 sources, 115 headers) in 8.18 sec: 6,985 declarations; 21,045 references; 6 unresolved inclusions; 268 syntax errors; 1,175 unresolved names (4%)
+!SESSION 2024-09-10 12:49:58.944 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-09-10 12:52:19.063
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-09-10 12:52:19.167
+!MESSAGE Log4j initialized with config file E:\Micro_proceessor_ReportLab\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-09-10 12:52:41.514
+!MESSAGE Started RMI Server, listening on port 41337

@@ -94,7 +94,9 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-
+  /* EX1*/
+  HAL_GPIO_WritePin(GPIOA, LED_RED_Pin, RESET);
+  HAL_GPIO_WritePin(GPIOA, LED_YELLOW_Pin, SET);
 
   /* 	EX2
     traffic(GPIOA, RED_1_Pin, YELLOW_1_Pin, GREEN_1_Pin, GREEN);
@@ -128,10 +130,9 @@ int main(void)
   setAllClock(GPIOA, GREEN_1_Pin, YELLOW_1_Pin, RED_1_Pin, GREEN_2_Pin, YELLOW_2_Pin, RED_2_Pin, GREEN_3_Pin, YELLOW_3_Pin, RED_3_Pin, GREEN_4_Pin, YELLOW_4_Pin, RED_4_Pin);
    */
 
-  /*EX10
+  /*EX10	 */
   clearAllClock(GPIOA, GREEN_1_Pin, YELLOW_1_Pin, RED_1_Pin, GREEN_2_Pin, YELLOW_2_Pin, RED_2_Pin, GREEN_3_Pin, YELLOW_3_Pin, RED_3_Pin, GREEN_4_Pin, YELLOW_4_Pin, RED_4_Pin);
-   */
-  ex1_init();
+
   while (1){
 
 	  ex1_run();

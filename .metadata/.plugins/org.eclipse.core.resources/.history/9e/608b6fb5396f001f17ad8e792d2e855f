@@ -25,7 +25,14 @@
 /* USER CODE BEGIN Includes */
 
 #include "ex1.h"
-
+#include "ex2.h"
+#include "ex3.h"
+#include "ex4.h"
+#include "ex5.h"
+#include "ex7.h"
+#include "ex8.h"
+#include "ex9.h"
+#include "ex10.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -94,7 +101,9 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-
+  /* EX1*/
+  HAL_GPIO_WritePin(GPIOA, LED_RED_Pin, RESET);
+  HAL_GPIO_WritePin(GPIOA, LED_YELLOW_Pin, SET);
 
   /* 	EX2
     traffic(GPIOA, RED_1_Pin, YELLOW_1_Pin, GREEN_1_Pin, GREEN);
@@ -128,10 +137,9 @@ int main(void)
   setAllClock(GPIOA, GREEN_1_Pin, YELLOW_1_Pin, RED_1_Pin, GREEN_2_Pin, YELLOW_2_Pin, RED_2_Pin, GREEN_3_Pin, YELLOW_3_Pin, RED_3_Pin, GREEN_4_Pin, YELLOW_4_Pin, RED_4_Pin);
    */
 
-  /*EX10
+  /*EX10	 */
   clearAllClock(GPIOA, GREEN_1_Pin, YELLOW_1_Pin, RED_1_Pin, GREEN_2_Pin, YELLOW_2_Pin, RED_2_Pin, GREEN_3_Pin, YELLOW_3_Pin, RED_3_Pin, GREEN_4_Pin, YELLOW_4_Pin, RED_4_Pin);
-   */
-  ex1_init();
+
   while (1){
 
 	  ex1_run();
@@ -172,11 +180,11 @@ int main(void)
 	  	num++;
 	 */
 
-	  /*  ex10_run();	*/
+	  /*  */ex10_run();
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  	HAL_Delay(1000);
+	  	HAL_Delay(50);
 
   }
   /* USER CODE END 3 */
