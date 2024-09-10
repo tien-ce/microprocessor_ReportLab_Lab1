@@ -1,2 +1,2 @@
 ex4.c:8:6:ex4_init	4	static
-ex4.c:10:6:ex4_run	40	static
+ex4.c:10:6:ex4_run	32	static
