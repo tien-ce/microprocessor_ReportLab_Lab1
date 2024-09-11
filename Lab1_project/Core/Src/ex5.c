@@ -106,7 +106,6 @@ void ex5_run(){
 
 		 ex5_count_1--;
 		 ex5_count --;
-		 HAL_Delay(200);
 
 	    /* USER CODE END WHILE */
 
