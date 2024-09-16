@@ -23,3 +23,4 @@
 "./SOW/Src/LED.o"
 "./SOW/Src/LED_7_SEGMENT.o"
 "./SOW/Src/Traffic_light.o"
+"./SOW/Src/software_timer.o"
