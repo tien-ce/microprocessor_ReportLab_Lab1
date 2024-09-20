@@ -1,4 +1,4 @@
-07:16:40 **** Incremental Build of configuration Debug for project Lab1_project ****
+08:12:32 **** Incremental Build of configuration Debug for project Lab1_project ****
 make -j8 all 
 arm-none-eabi-gcc "E:/Microprocesser-microcontroller/SOW/Src/LED.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I"E:/Microprocesser-microcontroller/SOW/Ins" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"SOW/Src/LED.d" -MT"SOW/Src/LED.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "SOW/Src/LED.o"
 arm-none-eabi-gcc "E:/Microprocesser-microcontroller/SOW/Src/LED_7_SEGMENT.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I"E:/Microprocesser-microcontroller/SOW/Ins" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"SOW/Src/LED_7_SEGMENT.d" -MT"SOW/Src/LED_7_SEGMENT.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "SOW/Src/LED_7_SEGMENT.o"
@@ -32,17 +32,17 @@ Finished building target: Lab1_project.elf
 arm-none-eabi-size   Lab1_project.elf 
 arm-none-eabi-objdump -h -S  Lab1_project.elf  > "Lab1_project.list"
 arm-none-eabi-objcopy  -O ihex  Lab1_project.elf  "Lab1_project.hex"
-arm-none-eabi-objcopy  -O binary  Lab1_project.elf  "Lab1_project.bin"
    text	   data	    bss	    dec	    hex	filename
-   6424	     20	   1572	   8016	   1f50	Lab1_project.elf
+   6424	     24	   1568	   8016	   1f50	Lab1_project.elf
+arm-none-eabi-objcopy  -O binary  Lab1_project.elf  "Lab1_project.bin"
 Finished building: default.size.stdout
  
 Finished building: Lab1_project.hex
 Finished building: Lab1_project.bin
- 
- 
 Finished building: Lab1_project.list
  
+ 
+ 
 
-07:16:45 Build Finished. 0 errors, 0 warnings. (took 4s.514ms)
+08:12:39 Build Finished. 0 errors, 0 warnings. (took 6s.858ms)
 

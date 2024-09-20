@@ -1,8 +1,4 @@
-07:16:40 **** Clean-only build of configuration Debug for project Lab1_project ****
-make -j8 clean 
-rm -rf  Lab1_project.hex  default.size.stdout  Lab1_project.list  Lab1_project.elf  ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o  ./Core/Startup/startup_stm32f103c6tx.o  ./Core/Src/ex1.o ./Core/Src/ex10.o ./Core/Src/main.o ./Core/Src/stm32f1xx_hal_msp.o ./Core/Src/stm32f1xx_it.o ./Core/Src/syscalls.o ./Core/Src/sysmem.o ./Core/Src/system_stm32f1xx.o  ./Core/Startup/startup_stm32f103c6tx.d  ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.d  ./Core/Src/ex1.d ./Core/Src/ex10.d ./Core/Src/main.d ./Core/Src/stm32f1xx_hal_msp.d ./Core/Src/stm32f1xx_it.d ./Core/Src/syscalls.d ./Core/Src/sysmem.d ./Core/Src/system_stm32f1xx.d  Lab1_project.bin  Lab1_project.elf
- 
-07:16:40 **** Incremental Build of configuration Debug for project Lab1_project ****
+08:12:32 **** Incremental Build of configuration Debug for project Lab1_project ****
 make -j8 all 
 arm-none-eabi-gcc "E:/Microprocesser-microcontroller/SOW/Src/LED.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I"E:/Microprocesser-microcontroller/SOW/Ins" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"SOW/Src/LED.d" -MT"SOW/Src/LED.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "SOW/Src/LED.o"
 arm-none-eabi-gcc "E:/Microprocesser-microcontroller/SOW/Src/LED_7_SEGMENT.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I"E:/Microprocesser-microcontroller/SOW/Ins" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"SOW/Src/LED_7_SEGMENT.d" -MT"SOW/Src/LED_7_SEGMENT.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "SOW/Src/LED_7_SEGMENT.o"
@@ -36,14 +32,14 @@ Finished building target: Lab1_project.elf
 arm-none-eabi-size   Lab1_project.elf 
 arm-none-eabi-objdump -h -S  Lab1_project.elf  > "Lab1_project.list"
 arm-none-eabi-objcopy  -O ihex  Lab1_project.elf  "Lab1_project.hex"
-arm-none-eabi-objcopy  -O binary  Lab1_project.elf  "Lab1_project.bin"
    text	   data	    bss	    dec	    hex	filename
-   6424	     20	   1572	   8016	   1f50	Lab1_project.elf
+   6424	     24	   1568	   8016	   1f50	Lab1_project.elf
+arm-none-eabi-objcopy  -O binary  Lab1_project.elf  "Lab1_project.bin"
 Finished building: default.size.stdout
  
 Finished building: Lab1_project.hex
 Finished building: Lab1_project.bin
- 
- 
 Finished building: Lab1_project.list
+ 
+ 
  
