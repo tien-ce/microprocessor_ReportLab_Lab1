@@ -20,3 +20,7 @@
 "./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
 "./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
 "./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
+"./SOW/Src/LED.o"
+"./SOW/Src/LED_7_SEGMENT.o"
+"./SOW/Src/Traffic_light.o"
+"./SOW/Src/software_timer.o"
